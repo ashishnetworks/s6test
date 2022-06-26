@@ -16,7 +16,7 @@ Now run both the above images and try to kill each of them with following comman
 
  - Container Killing command
 
-     docker kill --signal="SIGINT" <containerIdHere>
+     docker kill --signal="SIGINT" containerIdHere
 
 Observations
 1. For first image, where s6 was used as entry point, we will see, two SIGNALS are received. First SIGHUP and next one is SIGTERM
